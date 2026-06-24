@@ -1,0 +1,15 @@
+package firstproject;
+
+import java.util.*;
+
+
+public class Demo {
+    public static void main(String[] args) {
+    
+    	Scanner sc = new Scanner(System.in);
+    	System.out.println("enter the number so that we will be displayed");
+    	int num = sc.nextInt();
+    	System.out.println("the entered number is " + num);
+    	
+    }
+}

@@ -1,0 +1,30 @@
+package firstproject;
+
+import java.util.*;
+
+
+public class Demo {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter thwe operator ");
+        
+    	char op = sc.next().charAt(0);
+    	
+    	System.out.println("enter the two number ");
+    	int num1 = sc.nextInt();
+    	int num2 = sc.nextInt();
+    	
+    	switch(op)
+    	{
+    		case '+':
+    			System.out.println("the operator is for sum and dum of two number is" + (num1 + num2));
+    		case '-':
+    			System.out.println("the operator is for sub and sub of two number is"+ (num1 - num2));
+    		
+    	}
+    		
+    	
+    	
+    	System.out.println(op);
+    }
+}

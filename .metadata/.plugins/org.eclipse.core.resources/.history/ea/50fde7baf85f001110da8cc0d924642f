@@ -1,0 +1,24 @@
+package firstproject;
+
+import java.util.*;
+
+
+public class Demo {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+      int a = 7847588;
+      int temp = 7;
+      int count = 0;
+      
+      while(a > 0)
+      {
+    	 int ref = a%10;
+    	 if (ref == 7)
+    	 {
+    		 count++;
+    	 }
+    	 a = a /10;
+      }
+      System.out.println("the count of number" + count);
+    }
+}

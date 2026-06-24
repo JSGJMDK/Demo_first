@@ -1,0 +1,25 @@
+package firstproject;
+
+import java.util.*;
+
+
+public class Demo {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = 10;
+        int b = 20;
+        System.out.println("enter the operator to perform to arithmatic operation");
+        char op = sc.next().charAt(0);
+        
+       if (op == '+')
+       {
+    	   System.out.println("the sum of two number" + (a+b));
+       }
+       
+       if (op == '-')
+       {
+    	   System.out.println("the subtract of two number" + (a - b));
+       }
+      
+    }
+}

@@ -1,0 +1,18 @@
+package firstproject;
+
+import java.util.*;
+
+
+public class Demo {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+      int fibo = 8;
+      int a = 0;
+      int b = 1;
+      
+      while(fibo > 0)
+      {
+    	  
+      }
+    }
+}
